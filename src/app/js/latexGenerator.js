@@ -1,4 +1,5 @@
 var generateLatex = function(expr) {
+	if(!expr) return "";
 	var latexString = '';
 	for (var i = 0; i < expr.length; i++) {
 		var wrapper = expr[i];
